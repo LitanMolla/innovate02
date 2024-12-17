@@ -1,0 +1,547 @@
+/* Extra large devices */
+@media (min-width: 1200px) {  }
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    *{
+        overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        background: #52C5B6;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .headerButton{
+        background: #FFC34C;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    .bannerOverlay{
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+
+    .headermedia {
+        margin-right: 0;
+    }
+
+    .bannerTextPart h1 {
+        line-height: normal;
+    }
+
+    .aboutTextPart{
+        margin-top: 50px;
+    }
+
+    .aboutTextPart h1 {
+        line-height: normal;
+    }
+
+    #aboutUs {
+        margin: 80px 0;
+    }
+
+
+    .serviceItemPart{
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .serviceItem {
+        margin: 10px 0;
+    }
+
+    #servicePart {
+        padding: 60px 0;
+    }
+
+    #businessPart {
+        margin: 80px 0;
+    }
+
+    .leftUp h1 {
+        line-height: normal;
+    }
+
+    .teamItemPart{
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .teamItem{
+        margin: 10px 0;
+        scrollbar-width: none;
+    }
+
+    #digitalPart {
+        margin-bottom: 80px;
+    }
+
+    #counterPart {
+        padding: 60px 0;
+    }
+
+    .counterLeft,.reveiwBox,.footerLogoPart{
+        margin-bottom: 50px;
+    }
+
+    .counterItem{
+        margin: 10px 0;
+    }
+
+    .counterItem h1 {
+        line-height: normal;
+    }
+
+    .counterBrandPart {
+        justify-content: center !important;
+        gap: 50px;
+    }
+
+    #reviewPart {
+        background: #EEEEEE;
+        padding: 60px 0;
+    }
+
+    .reviewLeftHeader h1 {
+        line-height: normal;
+    }
+
+    #blogPart {
+        margin: 80px 0;
+    }
+
+    .blogHeader h1 {
+        line-height: normal;
+    }
+
+    .blogHeader {
+        margin-bottom: 40px;
+    }
+
+    .blogItem{
+        margin: 20px 0;
+    }
+
+    .logoSocial {
+        justify-content: center;
+    }
+
+    .footerMenu {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .subscribe {
+        justify-content: space-between;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .serviceLeft h1 {
+        line-height: normal;
+    }
+    /* ======================== Text Center ======================= */
+    #servicePart,#businessPart,#counterPart,.reviewLeftHeader,.footerLogoPart{
+        text-align: center;
+    }
+    /* ======================== Text Center ======================= */
+ }
+
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    *{
+        overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        background: #52C5B6;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .headerButton{
+        background: #FFC34C;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    .bannerOverlay{
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+
+    .bannerTextPart h1 {
+        font-size: 50px;
+    }
+
+    
+    .bannerTextPart p {
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    
+    .bannerTextPart h5 {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .heloooooo {
+        flex-direction: column;
+    }
+    
+    .reveiwPart {
+        margin-bottom: 30px;
+    }
+    
+    .headermedia {
+        margin-right: 0;
+    }
+    
+    #aboutUs {
+        margin: 80px 0;
+    }
+
+    .aboutTextPart{
+        margin-top: 50px;
+    }
+    
+    .aboutTextPart h1 {
+        font-size: 43px;
+        line-height: normal;
+    }
+
+    #servicePart {
+        padding: 60px 0;
+    }
+
+    .serviceLeft h1 {
+        font-size: 43px;
+        line-height: normal;
+    }
+
+    .serviceItem {
+        margin: 20px 0; 
+    }
+
+    .serviceItemPart{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .serviceItem {
+        padding: 30px 10px;
+    }
+
+    #businessPart {
+        margin: 80px 0;
+    }
+
+    .teamItem{
+        margin: 25px 0;
+    }
+
+
+    #digitalPart {
+        margin-bottom: 80px;
+    }
+
+    #counterPart {
+        padding: 60px 0;
+    }
+
+    .counterLeft{
+        margin-bottom: 50px;
+    }
+
+    .counterItem h1 {
+        line-height: normal;
+    }
+
+    .counterItem{
+        margin: 10px 0;
+    }
+
+    .counterBrandPart {
+        display: flex;
+    }
+
+    #reviewPart {
+        padding: 60px 0;
+    }
+
+    .reviewLeftHeader h1 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .reveiwBox,.blogItem{
+        margin-bottom: 50px;
+    }
+
+    #blogPart {
+        margin: 80px 0;
+    }
+
+    .blogHeader h1 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .blogHeader {
+        margin-bottom: 30px;
+    }
+
+    #footerPart {
+        padding-top: 60px;
+    }
+
+    .logoSocial {
+        justify-content: center;
+    }
+
+    .footerLogoPart{
+        margin-bottom: 50px;
+    }
+
+    .footerMenu {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+    
+    .bannerTextPart,.aboutTextPart,.serviceLeft,.serviceRight,.leftUp,.leftUnder,#counterPart,.reviewLeftHeader,.footerLogoPart{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    *{
+        overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        background: #52C5B6;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .headerButton{
+        background: #FFC34C;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    .bannerOverlay{
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+
+    .bannerTextPart h1 {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .bannerTextPart p {
+        margin-right: 0;
+    }
+
+    .bannerTextPart h5 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .heloooooo {
+        display: grid !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .reveiwPart {
+        display: grid !important;
+        margin-bottom: 10px;
+    }
+
+    .habijabi{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .aboutTextPart{
+        margin-top: 20px;
+    }
+
+    .aboutTextPart h1 {
+        font-size: 40px;
+    }
+
+    #aboutUs {
+        margin: 60px 0;
+    }
+
+    #servicePart {
+        background: #FAFAFA;
+        padding: 60px 0;
+    }
+
+    .serviceLeft h1 {
+        font-size: 45px;
+    }
+
+    .serviceItem {
+        margin: 10px 0;
+    }
+
+    #businessPart {
+        margin: 80px 0;
+        line-height: normal;
+    }
+
+    .leftUp p {
+    padding: 0 10px;
+    }
+
+    .leftUp h1 {
+        font-size: 45px;
+    }
+
+    .teamItem{
+        margin: 10px 0;
+    }
+
+    #ourTeam {
+        padding-top: 50px;
+        padding-bottom: 175px;
+    }
+
+    .ourTeamHeader h1 {
+        font-size: 45px;
+    }
+
+    
+    .digitalTxt h1 {
+        font-size: 40px;
+    }
+    
+    #digitalPart {
+        margin-bottom: 60px;
+    }
+    
+    #counterPart {
+        padding: 60px 0;
+    }
+    
+    .dtItem h5, a {
+        font-size: 18px;
+    }
+    
+    .counterItem{
+        margin: 10px 0;
+    }
+    
+    .counterItem h1 {
+        line-height: normal;
+    }
+
+    .counterBrandPart {
+        display: grid !important;
+        justify-content: center !important;
+    }
+    
+    .cBrandItem{
+        margin: 10px 0;
+    }
+    
+    #reviewPart {
+        background: #EEEEEE;
+        padding: 60px 0;
+    }
+    
+    .reviewLeftHeader h1 {
+        font-size: 45px;
+    }
+    
+    .reveiwBox {
+        padding: 50px 30px;
+        margin-bottom: 20px;
+    }
+    
+    .blogHeader h1 {
+        font-size: 45px;
+    }
+    
+    #blogPart {
+        margin: 75px 0;
+    }
+    
+    .blogHeader {
+        margin-bottom: 30px;
+    }
+    
+    .blogItem{
+        margin: 20px 0;
+    }
+    
+    #footerPart {
+        padding-top: 65px;
+    }
+
+    .logoSocial {
+        justify-content: center;
+    }
+
+    .footerLogoPart{
+        margin-bottom: 30px;
+    }
+
+    .footerMenu {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .subscribe {
+        background: #fff;
+        padding: 2px 2px 2px 5px;
+        border-radius: 5px;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .bannerTextPart,.aboutTextPart,#servicePart,#businessPart,.digitalTxt, #counterPart,.reviewLeftHeader,.footerLogoPart{
+        text-align: center;
+    }
+}
